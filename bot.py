@@ -1,9 +1,7 @@
 import logging
-import os
-from os import getenv
 from aiogram import Bot, Dispatcher, types, executor
-from aiogram.utils.exceptions import BotBlocked
-API_TOKEN = os.getenv('BOT_TOKEN')
+
+API_TOKEN = '5941486404:AAFgo_1GTKB0alvso5igTZQ4KBI2eRJ-SsY'
 
 logging.basicConfig(level=API_TOKEN)
 
