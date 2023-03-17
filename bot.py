@@ -3,7 +3,7 @@ import os
 from os import getenv
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.utils.exceptions import BotBlocked
-API_TOKEN = os.getenv('BOT_TOEKN')
+API_TOKEN = os.getenv('BOT_TOKEN')
 
 logging.basicConfig(level=API_TOKEN)
 
